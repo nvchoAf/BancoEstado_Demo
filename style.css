@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    padding: 30px;
+    background-color: rgb(230, 228, 228);
+    text-align: center;
+    margin: 50px auto;
+    
+}
+
+/* logo */
+.logo img {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.titulo{
+    height: 45px;
+    margin-top: -10px;
+}
+
+.linea {
+    border: 1px solid rgb(180, 179, 179);
+}
+
+/* seleccion de banca */
+.select_banca {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.select_banca label {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.select_banca input {
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+/* formulario */
+.form {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form label {
+    color: black;
+    font-weight: bold;
+}
+
+.form input {
+    width: 380px;
+    padding: 15px;
+    border: 1px solid rgb(198, 197, 197);
+    border-radius: 10px;
+}
+
+/* boton */
+.button button {
+    width: 409px;
+    background-color: rgb(255, 150, 45);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* problemas con su clave */
+.link {
+    margin-top: 10px;
+}
+
+.link a {
+    color: rgb(255, 150, 45);
+}
+

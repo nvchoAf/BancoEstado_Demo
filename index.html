@@ -1,37 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banca en Línea</title>
     <link rel="stylesheet" href="style.css">
-    <title>Banco Estado</title>
 </head>
 <body>
 
-<img src="Logo_BancoEstado.svg.png" alt="Logo Banco Estado"> 
-<h2>Banca en Línea</h2>
+    <!-- Imagen Principal -->
+    <div class="container">
 
-    <form>
-        <label for="banco">Seleccione Banca:</label>
-        <input type="radio">
-        <label for="personas">Personas</label>
+        <div class="row logo">
+            <div class="col">
+                <img src="Logo_BancoEstado.svg.png" alt="Logo BancoEstado">
+            </div>
+        </div>
+        
 
-        <input type="radio">
-        <label for="empresa">Empresas</label>
-        <br>
+        <!-- Banca en linea -->
+        <div class="row">
+            <div class="linea"></div>
+            <div class="col titulo">
+                <h1>Banca en Linea</h1>
+            </div>
+            <div class="linea"></div>
 
-        <label for="rut">RUT Usuario:</label>
-        <input type="text" id="rut" name="rut">
-        <br>
+        </div>
+        
 
-        <label for="clave">Clave:</label>
-        <input type="password" id="clave" name="clave">
-        <br>
+        <div class="row">
+            <div class="col select_banca">
+                <h3>Seleccione Banca</h3>
+                <div>
+                    <input type="radio">
+                    <label for="personas">Personas</label>
 
-        <input type="submit" value="Ingresar">
-    </form>
+                    <input type="radio">
+                    <label for="empresas">Empresas</label>
+                </div>
+            </div>
+        </div>
 
-    <p><a href="#">¿Problemas con su Clave?</a></p>
-    
+        <!-- Formulario -->
+        <div class="row">
+            <div class="col form">
+                <label for="rut">RUT Usuario</label>
+                <input type="text">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col form">
+                <label for="clave">Clave</label>
+                <input type="password">
+            </div>
+        </div>
+
+        <!-- boton -->
+        <div class="row">
+            <div class="col button">
+                <button><h2>Ingresar</h2></button>
+            </div>
+        </div>
+
+        <!-- problema con clave -->
+        <div class="row">
+            <div class="col link">
+                <a href="#">¿Problemas con su Clave?</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
